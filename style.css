@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    font-family: 'Pixelify Sans', cursive;
+    margin: 0;
+    padding: 0;
+}
+/* Estilos CSS para o seu site */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/cantina-foto10.webp);
+}
+
+header {
+    background-color: #165;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;    font-family: 'Courier New', Courier, monospace;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+ul.product-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Exibe os produtos em uma linha */
+    flex-wrap: wrap; /* Quebra para a próxima linha quando não há espaço suficiente */
+    justify-content: space-between; /* Espaço entre os produtos */
+}
+
+li.product {
+    display: inline-block;
+    width: calc(100% - 10px); /* Largura para dois produtos em uma linha com espaço */
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Inclui margens no tamanho total */
+}
+
+button:hover {
+    background-color: #e46c35;
+}
+
+.protudos-texto {
+    font-size: 50px;
+}
+
+.fundo-cantina {
+    background-color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem 0;
+}
+.Cantina {
+    color: black;
+    font-size: 50px;
+}
+
+.doguinho-cantina {
+    display: flex;
+    text-align: right;
+}
+
+.produtos-style h2 {
+    font-size: 80px;
+    text-align: center;
+    padding: 15px;
+    color: black;
+}
+.produtos-stylecafezinho-1 {
+    text-align: center;
+    font-size: 60px;
+
+}
+.cafezinho-preco {
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Righteous', sans-serif;
+}
+
+.add-to-cart {
+    border-radius: 17px;
+    background-color: #e4a32b;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 25px;
+    position: top;
+    font-size: 40px;
+    text-align: center;
+}
+
+.caramelo-preco {
+    padding: 15px;
+    font-family: 'Righteous', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.caramelo-1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.sanduiche-preco {
+    font-family: 'Righteous', sans-serif;
+    padding: 15px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.sanduiche-1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.espagueti-preco {
+    font-family: 'Righteous', sans-serif;
+    padding: 15px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.espagueti-1 {
+    font-size: 60px;
+    text-align: center;
+
+}
+
+.metaton {
+    text-align: center;
+    padding: 20px;
+}
+
+.carinho-de-compras {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+
+.preco-total {
+    padding: 20px;
+    font-size: 60px;
+    font-family: 'Righteous', sans-serif;
+    text-align: center;
+}
+
+#total {
+    font-family: 'Righteous', sans-serif;
+    text-align: center;
+    font-size: 45px;
+}
+
+ul#cart {
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.add-to-page {
+    border-radius: 17px;
+    background-color: #e4a32b;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 25px;
+    position: top;
+    margin: 35px;
+    font-size: 35px;
+}
+
+.frisk-imagem {
+    font-size: 0,01px;
+    
+}
